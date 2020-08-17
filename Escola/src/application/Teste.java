@@ -48,7 +48,7 @@ public class Teste {
 
         try {
             System.out.println(
-                    aluno.getNome() + " está " + ((aluno.calcularAprovacao()) ? "aprovado." : "reprovado."));
+                    aluno.getNome() + " está " + ((aluno.calcularAprovacao()) ? "aprovado(a)." : "reprovado(a)."));
         } catch (Exception e) {
             e.printStackTrace();
         }
